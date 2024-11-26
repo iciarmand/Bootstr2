@@ -1,0 +1,43 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Ignore the Terraform lock file
+.terraform.lock.hcl
+
+# Ignore the entire .terraform directory
+.terraform/
+
+# Ignore sensitive files (if you use variables with secrets)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (can be used for local adjustments)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+*.tfplan
+*.tfplan.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+rm-provider-azurerm_v*
+.terraform/
+
+scripts/.terraform/providers/registry.terraform.io/hashicorp/azurerm/1.38.0/linux_amd64/terraform-provider-azurerm_v1.38.0_x4
